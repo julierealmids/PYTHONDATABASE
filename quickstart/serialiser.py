@@ -1,6 +1,6 @@
 from dataclasses import fields
 from pyexpat import model
-from product.models import Categories,Product,Cart,CartItem
+from quickstart.models import Categories,Product,Cart,CartItem
 from rest_framework import serializers
 
 class Categoriesserializer(serializers.HyperlinkedModelSerializer):

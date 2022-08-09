@@ -1,7 +1,7 @@
 from django.shortcuts import render
-from product.models import Categories, Product, Cart, CartItem
+from quickstart.models import Categories, Product, Cart, CartItem
 from rest_framework import viewsets
-from product.serializer import Categoriesserializer,Productserializer,Cartserializer,CartItemserializer
+from quickstart.serialiser import Categoriesserializer,Productserializer,Cartserializer,CartItemserializer
 # Create your views here.
 
 class ProductViewSet(viewsets.ModelViewSet):

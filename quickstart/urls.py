@@ -1,6 +1,6 @@
 from django.urls import include, path
 from rest_framework import routers
-from product import views
+from quickstart import views
 
 router = routers.DefaultRouter()
 router.register(r'categories', views.CategoriesViewSet)
